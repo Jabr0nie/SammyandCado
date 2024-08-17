@@ -68,11 +68,11 @@ document.addEventListener(
                 startButton.disabled = false;
                 endButton.disabled = true;
             }
-        }, 1000);
+        }, 2000);
 
         moleInterval = setInterval(() => {
             if (!gameOver) comeout();
-        }, 1000);
+        }, 2000);
 
         console.log("Game started");
     }
