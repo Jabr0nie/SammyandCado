@@ -26,7 +26,7 @@ document.addEventListener(
                 'click', handleMoleClick);
         });
 
-        let random = holes[Math.floor(Math.random() * 9)];
+        let random = holes[Math.floor(Math.random() * 18)];
 
         random.classList.add('mole');
         random.addEventListener('click', handleMoleClick);
