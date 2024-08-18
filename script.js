@@ -47,6 +47,8 @@ document.addEventListener(
             // again if it's already in progress
             return;
         }
+       startButton.style.display = "none";
+        endButton.style.display = "block";
 
         gameOver = false;
         score = 0;
@@ -65,6 +67,8 @@ document.addEventListener(
                 clearInterval(countdown);
                 gameOver = true;
                 alert(`Game Over!\nYour final score: ${score}`);
+                startButton.style.display = "block";
+                endButton.style.display = "none";
                 startButton.disabled = false;
                 endButton.disabled = true;
             }
@@ -86,6 +90,8 @@ document.addEventListener(
         timer = 60;
         scoreDisplay.textContent = `Score: ${score}`;
         timerDisplay.textContent = `Time: ${timer}s`;
+        startButton.style.display = "block";
+        endButton.style.display = "none";
         startButton.disabled = false;
         endButton.disabled = true;
     }
