@@ -194,12 +194,12 @@ h2.subtitle {
 .tile[data-val="128"],
 .tile[data-val="256"],
 .tile[data-val="512"] {
-    font-size: 45px;
+    font-size: 0px;
 }
 
 .tile[data-val="1024"],
 .tile[data-val="2048"] {
-    font-size: 33px;
+    font-size: 0px;
 }
 
 .tile[data-val="2"] {
