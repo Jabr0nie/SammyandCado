@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../2048-master/2048-master/js"
+		},
+		{
+			"path": "../2048-master/2048-master/.history"
+		},
+		{
+			"path": "../2048-master/2048-master/css"
+		},
+		{
+			"path": "../2048-master/2048-master/font"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SammyandCado"
+	}
+}
