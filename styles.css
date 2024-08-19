@@ -25,6 +25,13 @@ body {
 
 }
 
+.GamesList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 .scoreboard {
     background-color:#10171f;
     border: solid 2px #7a8a99;

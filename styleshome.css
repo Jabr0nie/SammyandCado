@@ -1,0 +1,118 @@
+body {
+    background-color:#10171f ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px; 
+    color:beige;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.game-info {
+    
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.GamesList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.GameListItems {
+background-color: #1eeadb;
+color: #10171f;
+width: 100%;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+
+.scoreboard {
+    background-color:#10171f;
+    border: solid 2px #7a8a99;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#startButton {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    color: green;
+    border-radius: 25px;
+    border: solid 2px green;
+}
+
+#endButton {
+    display: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    color: red;
+    border-radius: 25px;
+    border: solid 2px red;
+}
+
+.game-container {
+
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    width: 70%;
+    height: 200%;
+    gap: 10px;
+
+}
+
+.hole {
+    height: 150px;
+    width: 150px;
+
+
+    cursor: pointer;
+
+}
+
+.mole {
+    background-size: 150px;
+    background-image: url(
+        "/Images/Benny2.png")
+}
+
+@media only screen and (max-width: 600px) {
+    .game-container {
+        width: 80%;
+        gap: 10px;
+        padding: 5%;
+        grid-template-columns: repeat(3, 38%);
+    }
+
+    .hole {
+        height: 50px;
+        width: 50px;
+        border-radius: 100px;
+    }
+
+    .mole {
+        background-size: 50px;
+        background-image: url(
+            "/Images/Benny2.png")
+    }
+}
